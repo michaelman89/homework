@@ -24,10 +24,7 @@ d=np.array(x)
 for jk in range(m-1):
     for y in range(n):
         d[y][jk]=tm[y][0]
-    print(d)
     delta1=np.linalg.det(d)
     solve.append(delta1/delta)
     d=np.array(x)
 print(*solve)
-
-
