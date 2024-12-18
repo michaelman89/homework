@@ -30,5 +30,3 @@ class Vector():
             return Vector(self.x*other, self.y*other, self.z*other)
     def __str__(self):
         return f'x = {self.x} y = {self.y} z = {self.z}'
-x,y,z=map(float, input().split())
-print(Vector(x,y,z)*5)
